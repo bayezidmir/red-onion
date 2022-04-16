@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "../shared/Header/Header";
+import SearchFood from "../SearchFood/SearchFood";
+import Meals from "../Meals/Meals/Meals";
 
 const Home = () => {
   return (
     <div>
-      <h1>This is home</h1>
+      <Header />
+      <SearchFood />
+      <Meals />
     </div>
   );
 };

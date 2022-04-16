@@ -1,0 +1,16 @@
+nav {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+}
